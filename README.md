@@ -29,6 +29,8 @@ A much simpler version of the above can be seen in this image (lift pin 15 and c
 >   • **White (Excitation +) → HX711 E+**
 >   • **Black (Excitation –) → HX711 E-**
 >   • **Red (Signal) → HX711 A- (A+ is internally tied to E+)**
+>   • **Verify signal wire by checking resistance between all wire pairs**
+>   • **Signal will be 1kOhm between each exitation wire, and exitation +- will be 2kOhm**
 
 All four HX711 breakout boards share the same clock (SCK ↔ GPIO 4) while each has its own DOUT pin, allowing the sketch you provided to poll them independently at full speed.
 
