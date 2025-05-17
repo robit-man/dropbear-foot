@@ -1,7 +1,6 @@
 # DROPBEAR Foot Assembly and Codebase
 
-
-![image](https://github.com/user-attachments/assets/bbf63001-aa33-432f-95fc-1649eef8e68c)
+![image](https://github.com/user-attachments/assets/a92e756e-2179-43b6-9402-cc26a7595759)
 
 ### HX711 × 4 → ESP32 DevKit v1 Pin Mapping
 
