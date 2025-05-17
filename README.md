@@ -26,9 +26,9 @@ A much simpler version of the above can be seen in this image (lift pin 15 and c
 | **Load-cell 3** | **DOUT**  | **GPIO 15** | Independent data line                     |
 
 > **Load-cell wiring reminder (typical 3-wire):**
->   • **Red (Excitation +) → HX711 E+**
+>   • **White (Excitation +) → HX711 E+**
 >   • **Black (Excitation –) → HX711 E-**
->   • **White (Signal) → HX711 A- (A+ is internally tied to E+)**
+>   • **Red (Signal) → HX711 A- (A+ is internally tied to E+)**
 
 All four HX711 breakout boards share the same clock (SCK ↔ GPIO 4) while each has its own DOUT pin, allowing the sketch you provided to poll them independently at full speed.
 
