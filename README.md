@@ -6,6 +6,8 @@
 
 ### HX711 × 4 → ESP32 DevKit v1 Pin Mapping
 
+A search yielding [load cell kits](https://www.amazon.com/s?k=hx711+load+cell+kit+50kg), get 1 HX711 per load cell, note that most kits only give you a single HX711 per 4 load cells
+
 <img src="https://github.com/user-attachments/assets/36cb7a04-b46a-4b61-a50a-b9a473b187f2" height="250px">
 
 <img src="https://github.com/user-attachments/assets/0aec55ac-66a9-493b-9099-e47a5e374abe" height="250px">
