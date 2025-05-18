@@ -2,7 +2,7 @@
 
 [![Group 2](https://github.com/robit-man/dropbear-neck-assembly/assets/36677806/bd13c6f5-7a3f-4262-9891-4259f17abbe0)](https://t.me/fractionalrobots)
 
-![image](https://github.com/user-attachments/assets/1ba1ac06-8408-4cab-9f5e-164f303332e6)
+![foot](https://github.com/user-attachments/assets/47b2b7ce-d9d8-46a5-8f98-94cae5381598)
 
 ### HX711 × 4 → ESP32 DevKit v1 Pin Mapping
 
