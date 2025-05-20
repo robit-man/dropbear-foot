@@ -30,7 +30,7 @@ A much simpler version of the above can be seen in this image (lift pin 15 and c
 > **Load-cell wiring reminder (typical 3-wire):**
 >   • **White (Excitation +) → HX711 E+**
 >   • **Black (Excitation –) → HX711 E-**
->   • **Red (Signal) → HX711 A- (A+ is internally tied to E+)**
+>   • **Red (Signal) → HX711 A- (A+ is internally tied to E+ via 1k resistor as a reference signal against A-)**
 >   • **Verify signal wire by checking resistance between all wire pairs**
 >   • **Signal will be 1kOhm between each exitation wire, and exitation +- will be 2kOhm**
 
