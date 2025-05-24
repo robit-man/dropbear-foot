@@ -18,7 +18,6 @@ Now before you begin, please refer to [this guide](https://www.instructables.com
 
 A much simpler version of the above can be seen in this image (lift pin 15 and connect it to pin 16)
 
-![Frame 33(1)](https://github.com/user-attachments/assets/de597161-ad6b-466a-95cc-b092bb2c112e)
 
 ![Frame 32](https://github.com/user-attachments/assets/8f02203e-7369-4469-9507-b84f87f9092d)
 
@@ -33,15 +32,18 @@ A much simpler version of the above can be seen in this image (lift pin 15 and c
 | **Load-cell 2** | **DOUT**  | **GPIO 13** | Independent data line                     |
 | **Load-cell 3** | **DOUT**  | **GPIO 15** | Independent data line                     |
 
+![Frame 33(1)](https://github.com/user-attachments/assets/de597161-ad6b-466a-95cc-b092bb2c112e)
+
 > **Load-cell wiring reminder (typical 3-wire):**
 >   • **White (Excitation +) → HX711 E+**
 >   • **Black (Excitation –) → HX711 E-**
->   • **Red (Signal) → HX711 A- (A+ is internally tied to E+ via 1k resistor as a reference signal against A-)**
+>   • **Red (Signal) → HX711 A+ (A pair of 1k resistors are tied to E+ and E1, and their shared connection is used as a reference signal against A-)**
 >   • **Verify signal wire by checking resistance between all wire pairs**
 >   • **Signal will be 1kOhm between each exitation wire, and exitation +- will be 2kOhm**
 
 All four HX711 breakout boards share the same clock (SCK ↔ GPIO 4) while each has its own DOUT pin, allowing the sketch you provided to poll them independently at full speed.
 
+![assembled](https://github.com/user-attachments/assets/141b0519-bd6f-4d37-bb9d-7f60438c0995)
 
 interface.py frontend, click on pads to toggle index selection, and apply -100 pressure for 2 seconds to assign
 
