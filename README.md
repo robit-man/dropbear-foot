@@ -18,9 +18,9 @@ Note that nuts are not mentioned, but should be included as 1:1 with each respec
 
 A search yielding [load cell kits](https://www.amazon.com/s?k=hx711+load+cell+kit+50kg), get 1 HX711 per load cell, or an [additional 6 pack of HX711 breakout boards](https://www.amazon.com/s?k=hx711+6pcs) note that most kits only give you a single HX711 per 4 load cell modules.
 
-<img src="https://github.com/user-attachments/assets/36cb7a04-b46a-4b61-a50a-b9a473b187f2" height="250px">
+<img src="https://github.com/user-attachments/assets/36cb7a04-b46a-4b61-a50a-b9a473b187f2" height="250px"  border-radius="20px" overflow="hidden">
 
-<img src="https://github.com/user-attachments/assets/0aec55ac-66a9-493b-9099-e47a5e374abe" height="250px">
+<img src="https://github.com/user-attachments/assets/0aec55ac-66a9-493b-9099-e47a5e374abe" height="250px"  border-radius="20px" overflow="hidden">
 
 
 Now before you begin, please refer to [this guide](https://www.instructables.com/How-to-Convert-Your-HX-711-Board-From-10Hz-to-80Hz/) on which traces to cut and resolder to enable 80hz update rate on the HX711
@@ -28,7 +28,7 @@ Now before you begin, please refer to [this guide](https://www.instructables.com
 
 A much simpler version of the above can be seen in this image (lift pin 15 and connect it to pin 16)
 
-<img src="https://github.com/user-attachments/assets/8f02203e-7369-4469-9507-b84f87f9092d" width="98%" border-radius="20px">
+<img src="https://github.com/user-attachments/assets/8f02203e-7369-4469-9507-b84f87f9092d" width="98%" border-radius="20px" overflow="hidden">
 
 | HX711 board     | HX711 pin | ESP32 pin   | Notes                                     |
 | --------------- | --------- | ----------- | ----------------------------------------- |
@@ -41,7 +41,7 @@ A much simpler version of the above can be seen in this image (lift pin 15 and c
 | **Load-cell 3** | **DOUT**  | **GPIO 15** | Independent data line                     |
 
 
-<img src="https://github.com/user-attachments/assets/de597161-ad6b-466a-95cc-b092bb2c112e" width="98%" border-radius="20px">
+<img src="https://github.com/user-attachments/assets/de597161-ad6b-466a-95cc-b092bb2c112e" width="98%" border-radius="20px" overflow="hidden">
 
 > **Load-cell wiring reminder (typical 3-wire):**
 >   • **White (Excitation +) → HX711 E+**
