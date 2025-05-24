@@ -6,6 +6,17 @@
 
 ![foot](https://github.com/user-attachments/assets/4cb30ee8-01fa-418d-aa52-2bbe6a1f1e2b)
 
+### Fasteners Required
+Note that nuts are not mentioned, but should be included as 1:1 with each respective bolt
+
+![Toe Bolts](https://github.com/user-attachments/assets/030403cc-773c-47c7-8b19-5a307fec3015)
+
+![Side Bolts](https://github.com/user-attachments/assets/bd9200eb-29fc-421e-bca4-10b6e4e5f224)
+
+![Heel Bolts](https://github.com/user-attachments/assets/b3692f9b-fe15-4c05-b6dd-3792601206a6)
+
+
+
 ### HX711 × 4 → ESP32 DevKit v1 Pin Mapping
 
 A search yielding [load cell kits](https://www.amazon.com/s?k=hx711+load+cell+kit+50kg), get 1 HX711 per load cell, or an [additional 6 pack of HX711 breakout boards](https://www.amazon.com/s?k=hx711+6pcs) note that most kits only give you a single HX711 per 4 load cell modules.
