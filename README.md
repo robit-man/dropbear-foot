@@ -15,7 +15,13 @@ A search yielding [load cell kits](https://www.amazon.com/s?k=hx711+load+cell+ki
 
 Now before you begin, please refer to [this guide](https://www.instructables.com/How-to-Convert-Your-HX-711-Board-From-10Hz-to-80Hz/) on which traces to cut and resolder to enable 80hz update rate on the HX711
 
+
 A much simpler version of the above can be seen in this image (lift pin 15 and connect it to pin 16)
+
+![Frame 33(1)](https://github.com/user-attachments/assets/de597161-ad6b-466a-95cc-b092bb2c112e)
+
+![Frame 32](https://github.com/user-attachments/assets/8f02203e-7369-4469-9507-b84f87f9092d)
+
 
 | HX711 board     | HX711 pin | ESP32 pin   | Notes                                     |
 | --------------- | --------- | ----------- | ----------------------------------------- |
