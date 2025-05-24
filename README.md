@@ -2,6 +2,8 @@
 
 [![Group 2](https://github.com/robit-man/dropbear-neck-assembly/assets/36677806/bd13c6f5-7a3f-4262-9891-4259f17abbe0)](https://t.me/fractionalrobots)
 
+## Note that all yellow parts in this image are to be printed with 95-98A Shore hardness TPU, all others PLA at no less than 80% rectilinear infill, and no less than 5 walls and 5 top and bottom layers
+
 ![foot](https://github.com/user-attachments/assets/4cb30ee8-01fa-418d-aa52-2bbe6a1f1e2b)
 
 ### HX711 × 4 → ESP32 DevKit v1 Pin Mapping
