@@ -9,11 +9,10 @@
 ### Fasteners Required
 Note that nuts are not mentioned, but should be included as 1:1 with each respective bolt
 
-<img src="https://github.com/user-attachments/assets/3ae995e3-3018-425e-9907-939136fcf7fa" width="48%">
-<img src="https://github.com/user-attachments/assets/b3692f9b-fe15-4c05-b6dd-3792601206a6" width="48%">
-<img src="https://github.com/user-attachments/assets/bd9200eb-29fc-421e-bca4-10b6e4e5f224" width="48%">
-<img src="https://github.com/user-attachments/assets/030403cc-773c-47c7-8b19-5a307fec3015" width="48%">
-
+<img src="https://github.com/user-attachments/assets/bd9200eb-29fc-421e-bca4-10b6e4e5f224" width="100%">
+<img src="https://github.com/user-attachments/assets/030403cc-773c-47c7-8b19-5a307fec3015" width="30%">
+<img src="https://github.com/user-attachments/assets/3ae995e3-3018-425e-9907-939136fcf7fa" width="30%">
+<img src="https://github.com/user-attachments/assets/b3692f9b-fe15-4c05-b6dd-3792601206a6" width="30%">
 
 ### HX711 × 4 → ESP32 DevKit v1 Pin Mapping
 
