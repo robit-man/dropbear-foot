@@ -28,9 +28,7 @@ Now before you begin, please refer to [this guide](https://www.instructables.com
 
 A much simpler version of the above can be seen in this image (lift pin 15 and connect it to pin 16)
 
-
-![Frame 32](https://github.com/user-attachments/assets/8f02203e-7369-4469-9507-b84f87f9092d)
-
+<img src="https://github.com/user-attachments/assets/8f02203e-7369-4469-9507-b84f87f9092d" width="98%" border-radius="20px">
 
 | HX711 board     | HX711 pin | ESP32 pin   | Notes                                     |
 | --------------- | --------- | ----------- | ----------------------------------------- |
@@ -42,7 +40,8 @@ A much simpler version of the above can be seen in this image (lift pin 15 and c
 | **Load-cell 2** | **DOUT**  | **GPIO 13** | Independent data line                     |
 | **Load-cell 3** | **DOUT**  | **GPIO 15** | Independent data line                     |
 
-![Frame 33(1)](https://github.com/user-attachments/assets/de597161-ad6b-466a-95cc-b092bb2c112e)
+
+<img src="https://github.com/user-attachments/assets/de597161-ad6b-466a-95cc-b092bb2c112e" width="98%" border-radius="20px">
 
 > **Load-cell wiring reminder (typical 3-wire):**
 >   • **White (Excitation +) → HX711 E+**
