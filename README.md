@@ -50,7 +50,7 @@ A much simpler version of the above can be seen in this image (lift pin 15 and c
 >   • **Verify signal wire by checking resistance between all wire pairs**
 >   • **Signal will be 1kOhm between each exitation wire, and exitation +- will be 2kOhm**
 
-All four HX711 breakout boards share the same clock (SCK ↔ GPIO 4) while each has its own DOUT pin, allowing the sketch you provided to poll them independently at full speed.
+All four HX711 breakout boards share the same clock (SCK ↔ GPIO 4) while each has its own DOUT pin, allowing polling independently at full speed.
 
 ![assembled](https://github.com/user-attachments/assets/141b0519-bd6f-4d37-bb9d-7f60438c0995)
 
